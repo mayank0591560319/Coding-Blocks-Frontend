@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4{
+    font-family: sans-serif;
+    color: aquamarine;
+}
+h1{
+    
+    font-size: 36px;
+}
+h2{
+    font-size: 40px;
+    color:rgb(red, green, blue);
+}
+h3{
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 50px;
+}
+p{
+    font-family: sans-serif;
+    font: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+p2{
+    font: 50px;
+line-height: 1.5;
+font-size: 20px;
+}
+/*Descendant selectors*/
+header p{/*select every child para inside head*/
+    color:orange;
+}
+
+/*Class and id*/
+#myid{
+    color: orange;
+    font: italic;
+}
+/*!Class and id*/
+.myPara{
+    color: blueviolet
+    
+    
+}
+.header-font{
+    font-size: medium;
+    font-style: italic;}
+    article>p{
+        color: blue;
+    }
+    li+li{
+    color: aqua;
+    }
+    li~li{
+        color:blueviolet
+    }
+    a:link{
+        text-decoration: none;
+        font-size: 24px;
+        color: aqua;
+    }
+    a:visited{
+        font-size: 52px;
+        color: black;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: brown;
+        cursor:pointer;
+        font-weight: 800;
+    }
+    a:active{
+        background-color: antiquewhite;
+        color:brown;
+        cursor: pointer;
+    }
+    ul,ol{
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    li:nth-child(2n+3){
+        color: chartreuse;
+    }
+    .container{
+        width: 800px;
+        margin:auto;
+    }
+    li{
+        margin-left: 40px;
+margin-bottom: 15px;
+    }
+    li:last-child{
+margin-bottom: 0;
+    }
+    .related{
+        text-align: center;
+        background-color: aquamarine;
+        margin-top: 50px;
+        width: 350px;
+    }
+    .related-heading{
+        margin-left: 20px;
+    }
+    nav a{
+        margin: 0 10px ;
+    }
+    nav a:last-child{
+        margin:0;
+    }
+    
