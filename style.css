@@ -9,6 +9,7 @@ h1,h2,h3,h4{
 h1{
     
     font-size: 36px;
+    float:left;
 }
 h2{
     font-size: 40px;
@@ -116,3 +117,56 @@ margin-bottom: 0;
         margin:0;
     }
     
+    header p{
+        color:orange;
+    }
+    .myPara{
+        background-color:burlywood
+
+    }
+    article {
+        width:180px;
+    }
+    
+       
+    body{
+        position:relative;
+    }
+    .post{
+        background-color:yellow;
+        margin-left:20px;
+        padding:0  12px;
+        float:left;
+    }
+    .related-post{
+        background-color:yellow;
+        float:right;
+        border:5px solid rgb;
+    }
+    nav{
+        float:right;
+        margin:20px;
+    }
+    .clearfix{
+        display:block;
+        clear:both;
+    }
+   
+    footer{
+        clear:both;
+        display:block;
+
+    }
+    post-header ::after{
+        content:top;
+        position:absolute;
+        font-weight:bold;
+        top:0;
+        padding:10px;
+        background-color:yellow;
+    }
+    article{
+        position:relative;
+        top:10px;
+        right:40px;
+    }
